@@ -29,7 +29,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/modules/presentation/ui/inventory-main"
+    "src/modules/presentation/ui/inventory-main",
+    "prettier.config.js"
   ],
   "exclude": ["node_modules"]
 }

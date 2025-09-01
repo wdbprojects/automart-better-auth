@@ -17,4 +17,8 @@ export const routes = {
   notAvailable: (slug: string) => {
     return `/inventory/${slug}/not-available`;
   },
+  login: "/auth/login",
+  error: "/auth/error",
+  challenge: "/auth/challenge",
+  admin: { dashboard: "/admin/dashboard" },
 };
